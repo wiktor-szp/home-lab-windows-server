@@ -124,19 +124,38 @@ Planned topics include:
 
 **Lab Documentation**
 
-The repository contains screenshots and documentation showing the configuration process and verification steps.
 
-Examples include:
+The repository contains screenshots documenting the configuration and verification of the laboratory environment.
 
-* DNS configuration and domain resolution
-* Active Directory configuration
-* Group Policy verification
-* Domain user authentication
-* NTFS permissions
-* Network share access
-* Windows client/domain integration
+**Active Directory & Domain Authentication**
 
-The screenshots are used as evidence of hands-on work rather than as a replacement for technical documentation.
+Windows Server 2016 was configured as a Domain Controller with Active Directory Domain Services, DNS and the `wiktorit.local` domain.
+
+![Domain User Successful Login](screenshots/13_Domain_User_Successful_Login.png)
+
+**Group Policy**
+
+Domain Group Policy was configured and verified on the Windows 11 client.
+
+![GPO Client Verification](screenshots/14_GPO_Client_Verification.png)
+
+**NTFS Permissions**
+
+NTFS permissions were configured for the `IT_Users` security group, granting Modify access to the company resource.
+
+![NTFS Permissions](screenshots/15_NTFS_Permissions_IT_Users.png)
+
+**Network Share**
+
+The Windows 11 domain user successfully accessed the `CompanyData` network share using Active Directory group-based permissions.
+
+![Network Share Access](screenshots/16_User_Access_Network_Share.png)
+
+**Additional Lab Screenshots**
+
+Additional screenshots documenting the configuration process are available in the [`screenshots`](screenshots/) directory.
+
+The screenshots are provided as evidence of hands-on work performed in the laboratory environment.
 
 ---
 
@@ -314,19 +333,38 @@ Planowane elementy:
 
 **Dokumentacja projektu**
 
-Repozytorium zawiera screenshoty oraz dokumentację przedstawiającą proces konfiguracji i testowania środowiska.
 
-Przykładowe obszary:
+Repozytorium zawiera screenshoty dokumentujące proces konfiguracji i testowania środowiska laboratoryjnego.
 
-* konfiguracja DNS i rozwiązywanie nazw
-* Active Directory
-* Group Policy
-* uwierzytelnianie użytkownika domenowego
-* uprawnienia NTFS
-* udziały sieciowe
-* integracja Windows 11 z domeną
+**Active Directory i uwierzytelnianie domenowe**
 
-Screenshoty są traktowane jako **dowód wykonania zadania**, a nie zamiennik dokumentacji technicznej.
+Windows Server 2016 został skonfigurowany jako Domain Controller z usługami Active Directory Domain Services, DNS oraz domeną `wiktorit.local`.
+
+![Logowanie użytkownika domenowego](screenshots/13_Domain_User_Successful_Login.png)
+
+**Group Policy**
+
+Skonfigurowano politykę domenową oraz zweryfikowano jej zastosowanie na komputerze klienckim Windows 11.
+
+![Weryfikacja GPO](screenshots/14_GPO_Client_Verification.png)
+
+**Uprawnienia NTFS**
+
+Skonfigurowano uprawnienia NTFS dla grupy zabezpieczeń `IT_Users`, przyznając jej dostęp typu Modify do zasobu firmowego.
+
+![Uprawnienia NTFS](screenshots/15_NTFS_Permissions_IT_Users.png)
+
+**Udział sieciowy**
+
+Użytkownik domenowy Windows 11 uzyskał dostęp do udziału `CompanyData` przy wykorzystaniu uprawnień opartych na członkostwie w grupie Active Directory.
+
+![Dostęp do udziału sieciowego](screenshots/16_User_Access_Network_Share.png)
+
+**Pozostałe screenshoty**
+
+Pozostałe screenshoty dokumentujące proces konfiguracji środowiska znajdują się w katalogu [`screenshots`](screenshots/).
+
+Screenshoty stanowią potwierdzenie praktycznej pracy wykonanej w środowisku laboratoryjnym.
 
 ---
 
