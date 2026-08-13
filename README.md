@@ -212,7 +212,7 @@ This repository documents my progression from IT fundamentals toward practical *
 
 ---
 
-# 🇵🇱 Polski
+# Polski
 
 **Cel projektu**
 
