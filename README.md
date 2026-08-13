@@ -6,7 +6,7 @@ EN: IT Helpdesk Home Lab – Windows Server, Active Directory, GPO || PL: Labora
 
 A hands-on home lab focused on building practical skills for **IT Helpdesk / IT Support / Junior IT Administration** roles.
 
-The project documents my learning process through real configuration tasks, troubleshooting scenarios, Active Directory administration and Windows client/server management.
+The project documents my learning process through real configuration tasks, Active Directory administration and Windows client/server management.
 
 ---
 
@@ -81,34 +81,6 @@ Example:
 \\DC01\CompanyData
 
 Access is granted through the appropriate Active Directory security group rather than directly assigning permissions to individual users.
-
----
-
-Helpdesk Troubleshooting Practice
-
-Alongside the infrastructure lab, I practice troubleshooting scenarios similar to real IT support tickets.
-
-Topics include:
-
-* Windows performance issues
-* CPU and RAM analysis
-* Windows Update
-* Event Viewer
-* Windows services
-* Print Spooler
-* DNS troubleshooting
-* DHCP
-* IP configuration
-* Default Gateway
-* ping
-* ipconfig
-* nslookup
-* tracert
-* PowerShell
-* Network connectivity troubleshooting
-* Basic incident investigation and root-cause analysis
-
-The objective is not only to fix an issue, but to understand **why it happened and how to verify the solution**.
 
 ---
 
@@ -299,34 +271,6 @@ Przykładowy zasób:
 \\DC01\CompanyData
 
 Dostęp jest kontrolowany poprzez grupę zabezpieczeń Active Directory zamiast nadawania uprawnień każdemu użytkownikowi indywidualnie.
-
-
-**Ćwiczenia Helpdesk / Troubleshooting**
-
-Równolegle do budowy infrastruktury ćwiczę scenariusze przypominające rzeczywiste zgłoszenia Helpdesk.
-
-Zakres obejmuje m.in.:
-
-* problemy z wydajnością Windows
-* analiza CPU i RAM
-* Windows Update
-* Event Viewer
-* usługi systemowe
-* Print Spooler
-* diagnostykę DNS
-* DHCP
-* konfigurację IP
-* Default Gateway
-* `ping`
-* `ipconfig`
-* `nslookup`
-* `tracert`
-* PowerShell
-* diagnostykę połączenia sieciowego
-* analizę przyczyny problemu
-* weryfikację rozwiązania
-
-Celem nie jest samo „naprawienie” problemu, ale zrozumienie **przyczyny, sposobu diagnozy oraz potwierdzenia rozwiązania**.
 
 ---
 
